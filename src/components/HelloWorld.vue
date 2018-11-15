@@ -53,7 +53,7 @@ export default {
   methods: {
     onDecode (content) {
       this.decodedContent = content
-      $router.push({ name: 'scanned', params: { code: content }})
+      //$router.push({ name: 'scanned', params: { code: content }})
     },
     onInit (promise) {
       promise.then(() => {
